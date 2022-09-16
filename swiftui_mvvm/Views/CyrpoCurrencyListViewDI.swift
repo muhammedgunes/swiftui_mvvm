@@ -1,16 +1,18 @@
 //
-//  CyrpoCurrencyListView.swift
+//  CyrpoCurrencyListViewDI.swift
 //  swiftui_mvvm
 //
-//  Created by MGunes on 15.09.2022.
+//  Created by MGunes on 16.09.2022.
 //
 
 import SwiftUI
 
-struct CyrpoCurrencyListView: View {
+struct CyrpoCurrencyListViewDI: View {
+    @StateObject private var viewModel : CryptoCurrencyListViewModelDI
     
-    @StateObject var viewModel : CryptoCurrencyListViewModel = CryptoCurrencyListViewModel()
-    @State private var showErrorAlert = false
+    init(service : ServiceCallDI) {
+        _viewModel = StateObject(wrappedValue: CryptoCurrencyListViewModelDI(service: service))
+    }
     
     var body: some View {
         NavigationView {
@@ -46,11 +48,10 @@ struct CyrpoCurrencyListView: View {
 
         }
     }
-    
 }
 
-struct CyrpoCurrencyListView_Previews: PreviewProvider {
+struct CyrpoCurrencyListViewDI_Previews: PreviewProvider {
     static var previews: some View {
-        CyrpoCurrencyListView()
+        CyrpoCurrencyListViewDI(service: ServiceCallDI.init(url: AppData.SERVICE_URL))
     }
 }

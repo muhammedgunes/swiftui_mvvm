@@ -11,7 +11,8 @@ import SwiftUI
 struct swiftui_mvvmApp: App {
     var body: some Scene {
         WindowGroup {
-            CyrpoCurrencyListView()
+            //CyrpoCurrencyListView()
+            CyrpoCurrencyListViewDI(service: ServiceCallDI(url: AppData.SERVICE_URL))
         }
     }
 }
