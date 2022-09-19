@@ -10,7 +10,6 @@ import SwiftUI
 struct CyrpoCurrencyListView: View {
     
     @StateObject var viewModel : CryptoCurrencyListViewModel = CryptoCurrencyListViewModel()
-    @State private var showErrorAlert = false
     
     var body: some View {
         NavigationView {
