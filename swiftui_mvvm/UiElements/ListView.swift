@@ -15,16 +15,14 @@ struct ListView: View {
     ]
     
     var body: some View {
-        VStack {
-            ScrollView {
-                LazyVGrid(columns: columns, spacing: 16) {
-                    ForEach(crypoList) { item in
-                        CryptoListItemView(cryptoCurrency: item)
-                            .frame(height: 100)
-                    }
+        ScrollView {
+            LazyVGrid(columns: columns, spacing: 20) {
+                ForEach(crypoList) { item in
+                    CryptoListItemView(cryptoCurrency: item)
+                        .frame(height: 100)
                 }
-                .padding()
             }
+            .padding()
         }
     }
 }

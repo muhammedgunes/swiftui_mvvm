@@ -13,8 +13,8 @@ struct CryptoListItemView: View {
             VStack {
                 Text(cryptoCurrency.currency).font(.title).foregroundColor(.white)
                 Text(cryptoCurrency.price).font(.title).foregroundColor(.white)
-            }.cornerRadius(5).frame(maxWidth: .infinity, maxHeight: .infinity)
-                .backgroundColor(.red)
+            }.frame(maxWidth: .infinity, maxHeight: 100)
+                .backgroundColor(.red).cornerRadius(10)
             
         }
 }
