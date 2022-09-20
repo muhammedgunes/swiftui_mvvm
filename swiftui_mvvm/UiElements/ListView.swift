@@ -24,5 +24,12 @@ struct ListView: View {
             }
             .padding()
         }
+        
+        /*List {
+            ForEach(crypoList) { item in
+                CryptoListItemView(cryptoCurrency: item)
+                    .frame(height: 100)
+            }
+        }*/
     }
 }
