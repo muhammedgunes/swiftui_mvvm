@@ -9,10 +9,10 @@
 
 
 # Package Hierarchy
-- ## **[ListItemViews](https://github.com/muhammedgunes/swiftui_mvvm/tree/main/ListItemViews):** Grid items view design
-- ## **[Network](https://github.com/muhammedgunes/swiftui_mvvm/tree/main/Network):** Rest api call layer
-- ## **[Models](https://github.com/muhammedgunes/swiftui_mvvm/tree/main/Models):** MVVM -> Model layer
-- ## **[Views](https://github.com/muhammedgunes/swiftui_mvvm/tree/main/Views):** MVVM -> View layer
-- ## **[ViewModels](https://github.com/muhammedgunes/swiftui_mvvm/tree/main/ViewModels):** MVVM -> ViewModel layer
-- ## **[Extensions](https://github.com/muhammedgunes/swiftui_mvvm/tree/main/Extensions):** Swift extensions
-- ## **[UiElements](https://github.com/muhammedgunes/swiftui_mvvm/tree/main/UiElements):** Custom views like indicator, alert
+- ## **[ListItemViews](https://github.com/muhammedgunes/swiftui_mvvm/tree/master/swiftui_mvvm/ListItemViews):** Grid items view design
+- ## **[Network](https://github.com/muhammedgunes/swiftui_mvvm/tree/master/swiftui_mvvm/Network):** Rest api call layer
+- ## **[Models](https://github.com/muhammedgunes/swiftui_mvvm/tree/master/swiftui_mvvm/Models):** MVVM -> Model layer
+- ## **[Views](https://github.com/muhammedgunes/swiftui_mvvm/tree/master/swiftui_mvvm/Views):** MVVM -> View layer
+- ## **[ViewModels](https://github.com/muhammedgunes/swiftui_mvvm/tree/master/swiftui_mvvm/ViewModels):** MVVM -> ViewModel layer
+- ## **[Extensions](https://github.com/muhammedgunes/swiftui_mvvm/tree/master/swiftui_mvvm/Extensions):** Swift extensions
+- ## **[UiElements](https://github.com/muhammedgunes/swiftui_mvvm/tree/master/swiftui_mvvm/UiElements):** Custom views like indicator, alert
